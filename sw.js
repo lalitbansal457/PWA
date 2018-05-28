@@ -1,8 +1,8 @@
 
 var CACHE_VERSION = 'app-v4';
 var CACHE_FILES = [
-    '/',
-  '/css/style.css',
+    '/pwa',
+  'css/style.css',
   'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'
 ];
 
