@@ -16,7 +16,8 @@ module.exports = {
     },
     devServer: {
         host: '0.0.0.0',
-        watchContentBase: true
+        watchContentBase: true,
+        //https: true
     },
     module: {
         rules: [
