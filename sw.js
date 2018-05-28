@@ -3,7 +3,8 @@ var CACHE_VERSION = 'app-v6';
 var CACHE_FILES = [
     '/PWA',
   'css/style.css',
-  'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'
+  'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',
+  '/PWA/manifest.json'
 ];
 
 
