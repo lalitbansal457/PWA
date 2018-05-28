@@ -15,6 +15,7 @@ module.exports = {
         filename: "bundle.js"
     },
     devServer: {
+        host: '0.0.0.0',
         watchContentBase: true
     },
     module: {
