@@ -1,5 +1,5 @@
 
-var CACHE_VERSION = 'app-v4';
+var CACHE_VERSION = 'app-v5';
 var CACHE_FILES = [
     '/PWA',
   'css/style.css',
