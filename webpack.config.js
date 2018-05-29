@@ -15,13 +15,13 @@ module.exports = {
         filename: "bundle.js"
     },
     devServer: {
-        host: '0.0.0.0',
         watchContentBase: true,
-        //https: true
+        port: 8081,
+       // https: true,
+        host: '0.0.0.0'
     },
     module: {
         rules: [
-
 
             {
                 test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
