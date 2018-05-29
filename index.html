@@ -13,6 +13,18 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+          if('serviceWorker' in navigator) {
+            console.log("I support serviceWorker")
+            navigator.serviceWorker.register('sw.js')
+              .then(function() {
+                    console.log('Service Worker Registered');
+              }, error => {
+                console.log(error)
+              });
+          }
+        </script>
 	
 </head>
 
@@ -32,18 +44,6 @@
       });*/
 
     </script>
-
-    <script>
-          if('serviceWorker' in navigator) {
-          	console.log("I support serviceWorker")
-            navigator.serviceWorker.register('sw.js')
-              .then(function() {
-                    console.log('Service Worker Registered');
-              }, error => {
-              	console.log(error)
-              });
-          }
-        </script>
 </body>
 
 </html>
