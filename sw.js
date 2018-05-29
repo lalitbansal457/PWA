@@ -35,7 +35,7 @@ self.addEventListener('fetch', function (event) {
             if(res){
                 return res;
             }
-            //requestBackend(event);
+            requestBackend(event);
         })
     )
 });
