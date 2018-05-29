@@ -8,23 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#3367D6">
+    <link rel="icon" sizes="192x192" href="images/splash.png">
 
     <link rel="manifest" href="manifest.json">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- <script>
-      if('serviceWorker' in navigator) {
-        console.log("I support serviceWorker")
-        navigator.serviceWorker.register('sw.js')
-          .then(function() {
-                console.log('Service Worker Registered');
-          }, error => {
-            console.log(error)
-          });
-      }
-    </script> -->
 	
 </head>
 
@@ -32,18 +21,18 @@
     <p>
         This works !!!!
     </p>
-    <script type="text/javascript">
-      /*var deferredPrompt;
-
-      window.addEventListener('beforeinstallprompt', (e) => {
-        // Prevent Chrome 67 and earlier from automatically showing the prompt
-        //e.preventDefault();
-        // Stash the event so it can be triggered later.
-        deferredPrompt.prompt();
-        //btnAdd.style.display = 'block';
-      });*/
-
-    </script>
 </body>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('sw.js')
+      .then(function(reg){
+        console.log("Yes, it did.");
+      }).catch(function(err) {
+        console.log("No it didn't. This happened: ", err)
+      });
+  }
+</script>
 
 </html>
