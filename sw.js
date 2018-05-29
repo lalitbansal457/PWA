@@ -1,6 +1,6 @@
 var CACHE_NAME = 'flappypwa-v4';
 var urlsToCache = [
-  '/'
+  '/PWA'
 ];
 
 self.addEventListener('install', function(event) {
