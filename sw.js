@@ -1,6 +1,8 @@
 
 var CACHE_VERSION = 'app-v8';
 var CACHE_FILES = [
+    '/',
+    '/PWA',
     'css/style.css',
     'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',
     //'manifest.json'
