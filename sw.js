@@ -1,4 +1,4 @@
-var CACHE_NAME = 'flappypwa-v5';
+var CACHE_NAME = 'app-v5';
 var urlsToCache = [
   '/'
 ];
