@@ -10,7 +10,7 @@ Progressive Web Apps (PWAs) are web applications that are regular web pages or w
 2. Offline: PWAs can work offline and store data locally on the device.
 3. Low on Data : An app which takes close to 10 MBs as a native app, can be reduced to about 500KB when made an PWA.
 4. No Updates Required : PWAs gets updated like web-pages. we get the latest version when we use. No need to update them every now and then.
-5. First use then trust : We don’t need to install them to start using. They are simple web-pages. Users choose to ‘install’ when they like it.
+5. First use then trust : We don’t need to install them to start using. They are simple web-pages. Users choose to ‘install’ when they like it. 
 6.Sharing is Easy : Unlike an app we can share a PWA with its URL.
 
 
